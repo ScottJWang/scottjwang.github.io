@@ -23,7 +23,7 @@ Recommended upload set:
 - `script.js`
 - `README.md`
 - `.gitignore`
-- `assets/psu-logo.svg`
+- `assets/smeal-logo.png`
 - `assets/profile-mark.svg`
 - `assets/profile.jpg` after you add it
 - `assets/Scott_Jinzhiyang_Wang_CV.pdf` after you export it
@@ -58,7 +58,7 @@ Research titles on the homepage open PDF files directly in a new tab. Put PDFs a
 |-- README.md
 |-- .gitignore
 |-- assets/
-|   |-- psu-logo.svg
+|   |-- smeal-logo.png
 |   |-- profile.jpg
 |   |-- profile-mark.svg
 |   `-- Scott_Jinzhiyang_Wang_CV.pdf

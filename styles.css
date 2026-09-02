@@ -35,21 +35,21 @@ a:hover {
 
 .site-header {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr) 180px;
+  grid-template-columns: 260px minmax(0, 1fr) 260px;
   align-items: center;
   width: min(1120px, calc(100% - 36px));
   margin: 0 auto;
   padding: 10px 0 6px;
 }
 
-.psu-mark {
+.smeal-mark {
   justify-self: start;
   display: inline-flex;
   align-items: center;
-  width: 142px;
+  width: 228px;
 }
 
-.psu-mark img {
+.smeal-mark img {
   display: block;
   width: 100%;
   height: auto;
@@ -173,7 +173,7 @@ li {
     gap: 12px;
   }
 
-  .psu-mark {
+  .smeal-mark {
     justify-self: center;
   }
 
