@@ -1,0 +1,281 @@
+:root {
+  --psu-blue: #1e407c;
+  --heading-blue: #073b67;
+  --link-blue: #186aa5;
+  --text: #34323a;
+  --muted: #69646b;
+  --line: #e3ded5;
+  --page-bg: #fbfaf7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--page-bg);
+  font-family: "Palatino Linotype", Palatino, "STIX Two Text", "STIX Two Math", Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--link-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr) 200px;
+  align-items: center;
+  width: min(1380px, calc(100% - 18px));
+  margin: 0 auto;
+  padding: 10px 0 6px;
+}
+
+.smeal-mark {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  width: 304px;
+}
+
+.smeal-mark img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 22px;
+  font-family: "Palatino Linotype", Palatino, "STIX Two Text", Georgia, serif;
+  font-size: 0.95rem;
+  transform: translateX(42px);
+}
+
+.site-header nav a {
+  color: var(--muted);
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 205px minmax(0, 1120px);
+  gap: 30px;
+  width: min(1400px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 8px 0 58px;
+}
+
+.profile {
+  padding-top: 4px;
+  text-align: center;
+}
+
+.portrait {
+  display: block;
+  width: 188px;
+  max-width: 100%;
+  margin: 0 auto 16px;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 14px;
+  color: var(--heading-blue);
+  font-size: 1.52rem;
+  font-weight: 700;
+  line-height: 1.18;
+  white-space: nowrap;
+}
+
+.profile p {
+  margin-bottom: 7px;
+  color: #686168;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.profile .title {
+  color: #56515a;
+  font-size: 0.96rem;
+}
+
+.content {
+  min-width: 0;
+}
+
+section {
+  scroll-margin-top: 20px;
+  margin-bottom: 34px;
+}
+
+h2 {
+  margin-bottom: 12px;
+  color: var(--heading-blue);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h3 {
+  margin: 23px 0 9px;
+  color: var(--heading-blue);
+  font-family: "Palatino Linotype", Palatino, "STIX Two Text", Georgia, serif;
+  font-size: 1.04rem;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+ul {
+  margin: 4px 0 16px 20px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.paper {
+  margin-bottom: 18px;
+}
+
+.paper.compact {
+  margin-bottom: 12px;
+}
+
+.paper p {
+  margin-bottom: 7px;
+}
+
+.paper-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.paper-meta,
+.coauthors {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.48;
+}
+
+.abstract {
+  margin-top: 8px;
+  color: #454149;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+#bio p,
+.abstract {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.jmp-figures {
+  display: grid;
+  grid-template-columns: 0.78fr 1.05fr 1.62fr;
+  gap: 9px;
+  margin-top: 10px;
+}
+
+.jmp-figures a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  height: 142px;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+
+.jmp-figures img {
+  display: block;
+  width: 100%;
+  max-height: 134px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 820px) {
+  .site-header {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .smeal-mark {
+    justify-self: center;
+    width: min(304px, 100%);
+  }
+
+  .site-header nav {
+    justify-content: center;
+    transform: none;
+  }
+
+  .page-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 18px;
+  }
+
+  .jmp-figures {
+    grid-template-columns: 1fr;
+  }
+
+  .jmp-figures a {
+    min-height: 0;
+  }
+
+  .jmp-figures img {
+    max-height: none;
+  }
+
+  .profile {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    font-size: 15px;
+  }
+
+  .site-header,
+  .page-layout {
+    width: min(100% - 28px, 1040px);
+  }
+
+  .portrait {
+    width: 190px;
+  }
+
+  h1 {
+    white-space: normal;
+  }
+}
