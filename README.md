@@ -6,12 +6,11 @@ This is a static academic website for Scott Jinzhiyang Wang's accounting PhD roo
 
 1. Review `index.html` and adjust paper descriptions as working abstracts become available.
 2. Export the CV as a PDF and upload it at `assets/Scott_Jinzhiyang_Wang_CV.pdf`.
-3. Replace `assets/profile-mark.svg` with a professional headshot when ready, or keep the current initials mark temporarily.
+3. Add a professional headshot at `assets/profile.jpg`. If the file is missing, the site falls back to `assets/profile-mark.svg`.
 4. Add paper PDFs under `papers/` using the filenames listed below.
-5. Add presentation videos or video embeds to each paper page when they are ready.
-6. Create a GitHub repository named `<your-github-username>.github.io`.
-7. Upload the public website files to the repository root.
-8. In GitHub, open Settings > Pages and publish from the main branch.
+5. Create a GitHub repository named `<your-github-username>.github.io`.
+6. Upload the public website files to the repository root.
+7. In GitHub, open Settings > Pages and publish from the main branch.
 
 ## Manual GitHub Upload
 
@@ -24,31 +23,21 @@ Recommended upload set:
 - `script.js`
 - `README.md`
 - `.gitignore`
+- `assets/psu-logo.svg`
 - `assets/profile-mark.svg`
+- `assets/profile.jpg` after you add it
 - `assets/Scott_Jinzhiyang_Wang_CV.pdf` after you export it
 - paper PDFs and slides when they are ready
 
-## Paper Pages
+## Paper PDFs
 
-Each main paper has a dedicated reading page. Put PDFs at these paths:
+Research titles on the homepage open PDF files directly in a new tab. Put PDFs at these paths:
 
 - `papers/behind-closed-doors.pdf`
 - `papers/audit-quality.pdf`
 - `papers/knightian-uncertainty.pdf`
 - `papers/pcaob-inspection-reports.pdf`
 - `papers/climate-risk-green-innovation.pdf`
-
-Each paper page also has a `Video` section. When a talk video is ready, replace the `Video coming soon` block in that paper's `.html` file with either:
-
-```html
-<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Paper video" allowfullscreen></iframe>
-```
-
-or:
-
-```html
-<video controls src="../videos/your-video-file.mp4"></video>
-```
 
 ## Suggested Content for the Job Market
 
@@ -69,21 +58,16 @@ or:
 |-- README.md
 |-- .gitignore
 |-- assets/
+|   |-- psu-logo.svg
+|   |-- profile.jpg
 |   |-- profile-mark.svg
 |   `-- Scott_Jinzhiyang_Wang_CV.pdf
 |-- papers/
-|   |-- behind-closed-doors.html
 |   |-- behind-closed-doors.pdf
-|   |-- audit-quality.html
 |   |-- audit-quality.pdf
-|   |-- knightian-uncertainty.html
 |   |-- knightian-uncertainty.pdf
-|   |-- pcaob-inspection-reports.html
 |   |-- pcaob-inspection-reports.pdf
-|   |-- climate-risk-green-innovation.html
 |   `-- climate-risk-green-innovation.pdf
-|-- slides/
-|   `-- job-market-paper-slides.pdf
-`-- videos/
-    `-- your-video-file.mp4
+`-- slides/
+    `-- job-market-paper-slides.pdf
 ```
