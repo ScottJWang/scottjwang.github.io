@@ -7,7 +7,7 @@ This is a static academic website for Scott Jinzhiyang Wang's accounting PhD roo
 1. Review `index.html` and adjust paper descriptions as working abstracts become available.
 2. Export the CV as a PDF and upload it at `assets/Scott_Jinzhiyang_Wang_CV.pdf`.
 3. Add a professional headshot at `assets/profile.jpg`. If the file is missing, the site falls back to `assets/profile-mark.svg`.
-4. Add paper PDFs under `papers/` using the filenames listed below.
+4. Add paper PDFs under `papers/` using the `Paper 1.pdf`, `Paper 2.pdf`, etc. filenames listed below.
 5. Create a GitHub repository named `<your-github-username>.github.io`.
 6. Upload the public website files to the repository root.
 7. In GitHub, open Settings > Pages and publish from the main branch.
@@ -27,17 +27,18 @@ Recommended upload set:
 - `assets/profile-mark.svg`
 - `assets/profile.jpg` after you add it
 - `assets/Scott_Jinzhiyang_Wang_CV.pdf` after you export it
-- paper PDFs and slides when they are ready
+- paper PDFs named `Paper 1.pdf`, `Paper 2.pdf`, etc.
+- slides when they are ready
 
 ## Paper PDFs
 
 Research titles on the homepage open PDF files directly in a new tab. Put PDFs at these paths:
 
-- `papers/behind-closed-doors.pdf`
-- `papers/audit-quality.pdf`
-- `papers/knightian-uncertainty.pdf`
-- `papers/pcaob-inspection-reports.pdf`
-- `papers/climate-risk-green-innovation.pdf`
+- `papers/Paper 1.pdf`
+- `papers/Paper 2.pdf`
+- `papers/Paper 3.pdf`
+- `papers/Paper 4.pdf`
+- `papers/Paper 5.pdf`
 
 ## Suggested Content for the Job Market
 
@@ -63,11 +64,11 @@ Research titles on the homepage open PDF files directly in a new tab. Put PDFs a
 |   |-- profile-mark.svg
 |   `-- Scott_Jinzhiyang_Wang_CV.pdf
 |-- papers/
-|   |-- behind-closed-doors.pdf
-|   |-- audit-quality.pdf
-|   |-- knightian-uncertainty.pdf
-|   |-- pcaob-inspection-reports.pdf
-|   `-- climate-risk-green-innovation.pdf
+|   |-- Paper 1.pdf
+|   |-- Paper 2.pdf
+|   |-- Paper 3.pdf
+|   |-- Paper 4.pdf
+|   `-- Paper 5.pdf
 `-- slides/
     `-- job-market-paper-slides.pdf
 ```
