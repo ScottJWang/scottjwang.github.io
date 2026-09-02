@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 92" role="img" aria-labelledby="title desc">
-  <title id="title">Penn State</title>
-  <desc id="desc">Penn State word mark for site header.</desc>
-  <rect width="420" height="92" fill="#ffffff"/>
-  <circle cx="46" cy="46" r="32" fill="#1e407c"/>
-  <text x="46" y="53" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">PSU</text>
-  <text x="94" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" fill="#1e407c">Penn State</text>
-  <text x="96" y="65" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" fill="#58616d">SMEAL COLLEGE OF BUSINESS</text>
-</svg>
