@@ -197,9 +197,16 @@ li {
 
 .jmp-figures {
   display: grid;
-  grid-template-columns: 0.78fr 1.05fr 1.62fr;
+  grid-template-columns: minmax(300px, 0.78fr) minmax(360px, 1.22fr);
+  grid-template-rows: 1.65fr 1fr;
   gap: 9px;
+  width: min(900px, 100%);
+  height: clamp(285px, 20vw, 330px);
   margin-top: 10px;
+}
+
+.jmp-figures a:first-child {
+  grid-row: 1 / -1;
 }
 
 .jmp-figures a {
@@ -207,8 +214,9 @@ li {
   align-items: center;
   justify-content: center;
   min-width: 0;
-  height: 142px;
+  height: 100%;
   padding: 4px;
+  overflow: hidden;
   background: #fff;
   border: 1px solid var(--line);
 }
@@ -216,8 +224,7 @@ li {
 .jmp-figures img {
   display: block;
   width: 100%;
-  max-height: 134px;
-  height: auto;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -245,13 +252,21 @@ li {
 
   .jmp-figures {
     grid-template-columns: 1fr;
+    height: auto;
+    width: 100%;
+  }
+
+  .jmp-figures a:first-child {
+    grid-row: auto;
   }
 
   .jmp-figures a {
+    height: auto;
     min-height: 0;
   }
 
   .jmp-figures img {
+    height: auto;
     max-height: none;
   }
 
