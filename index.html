@@ -3,207 +3,222 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Scott Jinzhiyang Wang, accounting PhD candidate at Penn State University.">
-  <title>Scott Jinzhiyang Wang | Accounting PhD Candidate</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <meta name="description" content="Scott Jinzhiyang Wang, PhD candidate in accounting at Penn State University.">
+  <title>Scott Jinzhiyang Wang</title>
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="#top">Scott Jinzhiyang Wang</a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#bio">Bio</a>
-        <a href="#research">Research</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#awards">Awards</a>
-        <a href="assets/Scott_Jinzhiyang_Wang_CV.pdf">CV</a>
-      </nav>
-    </div>
+  <header class="topbar" id="top">
+    <nav aria-label="Primary navigation">
+      <a href="#bio">Bio</a>
+      <a href="#research">Research</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#service">Service</a>
+      <a href="#awards">Awards</a>
+      <a href="assets/Scott_Jinzhiyang_Wang_CV.pdf">CV</a>
+    </nav>
   </header>
 
-  <main class="page-shell" id="top">
-    <aside class="profile" aria-label="Profile">
-      <div class="portrait-card">
-        <img src="assets/profile-mark.svg" alt="Scott Jinzhiyang Wang profile mark">
-      </div>
-
+  <main class="page">
+    <section class="profile" aria-label="Profile">
+      <img class="portrait" src="assets/profile.jpg" alt="Scott Jinzhiyang Wang" onerror="this.onerror=null; this.src='assets/profile-mark.svg';">
       <h1>Scott Jinzhiyang Wang</h1>
-      <p class="credential">CMA</p>
-      <p class="role">PhD Candidate in Accounting</p>
-      <p class="school">Penn State University<br>Smeal College of Business</p>
-
-      <div class="profile-links" aria-label="Profile links">
-        <a href="mailto:jqw6262@psu.edu">Email</a>
+      <p class="subtitle">PhD Candidate in Accounting</p>
+      <p>Penn State University, Smeal College of Business</p>
+      <p><a href="mailto:jqw6262@psu.edu">jqw6262@psu.edu</a></p>
+      <p class="profile-links">
         <a href="assets/Scott_Jinzhiyang_Wang_CV.pdf">CV</a>
-      </div>
+      </p>
+    </section>
 
-      <address>
-        Smeal College of Business<br>
-        305A Business Building<br>
-        University Park, PA 16802
-      </address>
-    </aside>
+    <section id="bio">
+      <h2>Short Bio</h2>
+      <p>
+        Welcome! I am a PhD candidate in Business Administration (Accounting)
+        at the Smeal College of Business, Penn State University. I am on the
+        2026-2027 accounting rookie job market.
+      </p>
+      <p>
+        My research examines how public institutions, disclosure choices,
+        auditing oversight, and uncertainty shape capital market information
+        environments. During 2024-2025, I was a Visiting Research Intern in the
+        Office of Economic and Risk Analysis at the Public Company Accounting
+        Oversight Board.
+      </p>
+    </section>
 
-    <div class="content">
-      <section class="intro" id="bio">
-        <p class="market">Rookie Job Market 2026-2027</p>
-        <h2>Short Bio</h2>
+    <section id="research">
+      <h2>Research</h2>
+
+      <h3>Job Market Paper</h3>
+      <article class="paper">
+        <p class="paper-title"><a href="papers/behind-closed-doors.html">[1] Behind Closed Doors: Presidential Meetings and Strategic Public Disclosure</a></p>
+        <p class="paper-meta">Sole-authored job market paper</p>
         <p>
-          Welcome! I am a PhD candidate in Business Administration (Accounting)
-          at the Smeal College of Business, Penn State University. My research
-          focuses on financial reporting, auditing, disclosure, uncertainty, and
-          capital market information environments.
+          <strong>Abstract:</strong> The public cannot fully observe what the
+          U.S. president is working on, and the president chooses what to
+          communicate publicly. I examine what drives this strategic disclosure
+          and its capital-market implications. Using Presidential Daily Diaries,
+          I reconstruct the president's minute-by-minute schedule from
+          1935-2009 and use an LLM-assisted process to identify potential policy
+          topics discussed in meetings and public communications. I find that
+          public communications more closely reflect meeting topics involving
+          voter priorities and less closely reflect politically divisive topics.
+          Greater correspondence is associated with lower subsequent aggregate
+          and firm-level market uncertainty, with patterns varying by firms'
+          policy exposure and private information access.
         </p>
+        <p class="paper-links">
+          <a href="papers/behind-closed-doors.html">Paper page</a>
+          <a href="papers/behind-closed-doors.html#video">Video</a>
+        </p>
+      </article>
+
+      <h3>Working Papers</h3>
+      <article class="paper">
+        <p class="paper-title"><a href="papers/audit-quality.html">[2] Market-based Incentives for Audit Quality</a></p>
+        <p class="paper-meta">Minor revision at <em>Management Science</em></p>
         <p>
-          During 2024-2025, I was a Visiting Research Intern in the Office of
-          Economic and Risk Analysis at the Public Company Accounting Oversight
-          Board. That experience supported the development of two active working
-          papers on PCAOB inspection reports and audit quality.
+          with Andrew Acito, Amir Amel-Zadeh, James Anderson, William Anderson,
+          Daniel Aobdia, Thomas Bourveau, Francois Brochet, Huaizhi Chen,
+          Jonathan Fluharty-Jaidee, Martin Schmalz, Manyun Tang, Joshua White,
+          and William Zame
         </p>
-      </section>
+        <p class="note">
+          Cited in PCAOB Release No. 2024-012 on firm and engagement metrics
+          and the PCAOB Chair address at the 2024 AICPA & CIMA Conference.
+        </p>
+        <p class="paper-links">
+          <a href="papers/audit-quality.html">Paper page</a>
+          <a href="papers/audit-quality.html#video">Video</a>
+        </p>
+      </article>
 
-      <section id="research">
-        <div class="section-title">
-          <h2>Research</h2>
-          <a href="mailto:jqw6262@psu.edu">Request papers</a>
-        </div>
+      <article class="paper">
+        <p class="paper-title"><a href="papers/knightian-uncertainty.html">[3] Knightian Uncertainty and Fair Value Estimation</a></p>
+        <p class="paper-meta">Preparing for initial submission at <em>Journal of Accounting Research</em></p>
+        <p>with Rick Mergenthaler</p>
+        <p class="note">Based on second-year paper at Penn State.</p>
+        <p class="paper-links">
+          <a href="papers/knightian-uncertainty.html">Paper page</a>
+          <a href="papers/knightian-uncertainty.html#video">Video</a>
+        </p>
+      </article>
 
-        <ol class="paper-list">
-          <li class="paper-item">
-            <h3>Knightian Uncertainty and Fair Value Estimation</h3>
-            <p class="authors">with Rick Mergenthaler</p>
-            <p class="status">Based on second-year paper at Penn State</p>
-            <details>
-              <summary>Abstract</summary>
-              <p>
-                This project studies how uncertainty affects fair value
-                estimation and the information conveyed through financial
-                reporting.
-              </p>
-            </details>
-          </li>
-
-          <li class="paper-item">
-            <h3>Climate Risk and Corporate Green Innovation: Evidence from Nearby Climate Disasters</h3>
-            <p class="authors">with Phong Truong</p>
-            <p class="status">Under review at Journal of Accounting Research</p>
-            <details>
-              <summary>Abstract</summary>
-              <p>
-                This paper examines whether nearby climate disasters affect
-                corporate green innovation, connecting climate risk to firm
-                investment and disclosure-related decisions.
-              </p>
-            </details>
-          </li>
-
-          <li class="paper-item">
-            <h3>PCAOB Inspection Reports and Information Dissemination</h3>
-            <p class="authors">
-              with Andrew Acito, Amir Amel-Zadeh, James Anderson, William
-              Anderson, Daniel Aobdia, Francois Brochet, Huaizhi Chen, Jonathan
-              Fluharty-Jaidee, Martin Schmalz, and Manyun Tang
-            </p>
-            <p class="status">Preparing for initial submission at Review of Financial Studies</p>
-            <details>
-              <summary>Abstract</summary>
-              <p>
-                Based on my second-semester proposal at Penn State and developed
-                during my time at the PCAOB. The project studies how PCAOB
-                inspection reports disseminate information to market
-                participants.
-              </p>
-            </details>
-          </li>
-
-          <li class="paper-item">
-            <h3>Market-based Incentives for Optimal Audit Quality</h3>
-            <p class="authors">
-              with Andrew Acito, Amir Amel-Zadeh, James Anderson, William
-              Anderson, Daniel Aobdia, Francois Brochet, Huaizhi Chen, Jonathan
-              Fluharty-Jaidee, Martin Schmalz, Manyun Tang, Joshua White,
-              Thomas Bourveau, and William Zame
-            </p>
-            <p class="status">Revise and resubmit at Management Science</p>
-            <details>
-              <summary>Notes</summary>
-              <p>
-                Developed during my time at the PCAOB. The paper is cited in
-                PCAOB Release No. 2024-012 on firm and engagement metrics and
-                in the PCAOB Chair's address at the 2024 AICPA & CIMA
-                Conference.
-              </p>
-            </details>
-          </li>
-        </ol>
-      </section>
-
-      <section id="teaching">
-        <h2>Teaching</h2>
-        <ul class="compact-list">
-          <li>
-            <strong>Instructor, ACCTG 404 Managerial Accounting</strong>
-            <span>Penn State University, undergraduate, 2023. Average evaluation: 6.5/7.0.</span>
-          </li>
-          <li>
-            <strong>Teaching Assistant, ACCTG 502 Accounting Research and Analysis</strong>
-            <span>Penn State University, DBA, 2025.</span>
-          </li>
-          <li>
-            <strong>Teaching Assistant, ACCTG 211 Financial Accounting</strong>
-            <span>Penn State University, undergraduate, 2023.</span>
-          </li>
-        </ul>
-      </section>
-
-      <section id="awards">
-        <h2>Selected Honors and Awards</h2>
-        <ul class="dated-list">
-          <li><time>2025-2026</time><span>Jeanne and Charles Rider Graduate Fellowship, Penn State University</span></li>
-          <li><time>2024-2025</time><span>J. Kenneth and Nancy N. Jones Graduate Scholarship, Penn State University</span></li>
-          <li><time>2023-2024</time><span>Jane O. Burns Graduate Scholarship, Penn State University</span></li>
-          <li><time>2022-2023</time><span>Dean's Fellowship, Penn State University</span></li>
-          <li><time>2014-2018</time><span>Si Yuan Student Fellowship, Xi'an Jiaotong University</span></li>
-        </ul>
-      </section>
-
-      <section id="education">
-        <h2>Education</h2>
-        <ul class="dated-list">
-          <li><time>2022-2027</time><span>Ph.D. in Business Administration (Accounting), Penn State University</span></li>
-          <li><time>2018-2020</time><span>M.Sc. in Accounting, Bentley University</span></li>
-          <li><time>2014-2018</time><span>B.S. in Engineering; Second Major in Accounting, Xi'an Jiaotong University</span></li>
-        </ul>
-      </section>
-
-      <section id="service">
-        <h2>Professional Activity</h2>
+      <article class="paper">
+        <p class="paper-title"><a href="papers/pcaob-inspection-reports.html">[4] PCAOB Inspection Reports and Information Dissemination</a></p>
+        <p class="paper-meta">Preparing for initial submission at <em>Review of Financial Studies</em></p>
         <p>
-          Conference reviewer for the 2026 FARS Midyear Meeting, 2026 AAA
-          Annual Meeting, 2022 FARS Midyear Meeting, and 2022 AAA International
-          Accounting Midyear Meeting.
+          with Andrew Acito, Amir Amel-Zadeh, James Anderson, William Anderson,
+          Daniel Aobdia, Francois Brochet, Huaizhi Chen, Jonathan
+          Fluharty-Jaidee, Martin Schmalz, and Manyun Tang
         </p>
-        <p class="conference-note">
-          Selected conference activity includes Kellogg Accounting Conference
-          2025, Midwest Accounting Research Conference 2025, Boston Accounting
-          Students Symposium 2025 (Discussant), PCAOB Conference on Auditing and
-          Capital Markets 2024, Penn State Accounting Research Conference 2023,
-          2024, 2025, AAA Annual Conference 2025, AAA FARS Midyear Meeting
-          2022, and AAA International Accounting Midyear Meeting 2022
-          (Presenter).
+        <p class="note">
+          Based on second-semester proposal at Penn State. This paper exploits
+          proprietary PCAOB data.
         </p>
-      </section>
-    </div>
+        <p class="paper-links">
+          <a href="papers/pcaob-inspection-reports.html">Paper page</a>
+          <a href="papers/pcaob-inspection-reports.html#video">Video</a>
+        </p>
+      </article>
+
+      <article class="paper">
+        <p class="paper-title"><a href="papers/climate-risk-green-innovation.html">[5] Climate Risk and Corporate Green Innovation: Evidence from Nearby Climate Disasters</a></p>
+        <p class="paper-meta">Preparing for initial submission</p>
+        <p>with Phong Truong</p>
+        <p class="paper-links">
+          <a href="papers/climate-risk-green-innovation.html">Paper page</a>
+          <a href="papers/climate-risk-green-innovation.html#video">Video</a>
+        </p>
+      </article>
+
+      <h3>Works in Progress</h3>
+      <ul class="plain-list">
+        <li>[6] Inflation and Accrual Anomaly: From a View of Conditional Asset Pricing, with Nastaran Mirzayi</li>
+        <li>[7] Bypassing the Bureaucracy: The Presidential Information Transmission and Regulatory Outcomes</li>
+        <li>[8] Presidential Interaction and Judicial Independence: Evidence from Corporate Litigation</li>
+        <li>[9] Accounting Standards and University Bonds, with Daniel Aobdia and Yuchen Li</li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching Experience</h2>
+      <ul class="dated-list">
+        <li>
+          <span class="year">2025</span>
+          <span>Penn State University, Smeal College of Business<br>Teaching Assistant, Accounting Research and Analysis (DBA)</span>
+        </li>
+        <li>
+          <span class="year">2023</span>
+          <span>Penn State University, Smeal College of Business<br>Instructor, Managerial Accounting (Undergraduate; Avg. Rating 6.5/7)<br>Teaching Assistant, Financial Accounting (Undergraduate)</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="conferences">
+      <h2>Conference Presentations and Participation</h2>
+      <p class="note">(P) denotes Presenter; (D) denotes Discussant.</p>
+      <ul class="dated-list">
+        <li>
+          <span class="year">2026</span>
+          <span>WashU Olin Accounting Research Conference (P, Poster Session); AAA Annual Meeting (P*2); Midwest Accounting Research Conference; Penn State Accounting Research Conference</span>
+        </li>
+        <li>
+          <span class="year">2025</span>
+          <span>Kellogg Accounting Conference; Boston Accounting Students Symposium (D); AAA Annual Meeting; Midwest Accounting Research Conference; Penn State Accounting Research Conference</span>
+        </li>
+        <li>
+          <span class="year">2024</span>
+          <span>PCAOB Conference on Auditing and Capital Markets; Penn State Accounting Research Conference</span>
+        </li>
+        <li>
+          <span class="year">2023</span>
+          <span>Penn State Accounting Research Conference</span>
+        </li>
+        <li>
+          <span class="year">2022</span>
+          <span>Penn State Accounting Research Conference; FARS Midyear Meeting; International Accounting Midyear Meeting (P)</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="service">
+      <h2>Service</h2>
+      <p>
+        Conference reviewer for the 2027 Hawaii Accounting Research Conference,
+        2026 FARS Midyear Meeting, 2026 AAA Annual Meeting, 2022 FARS Midyear
+        Meeting, and 2022 AAA International Accounting Midyear Meeting.
+      </p>
+    </section>
+
+    <section id="awards">
+      <h2>Selected Awards and Honors</h2>
+      <ul class="dated-list">
+        <li><span class="year">2025-2026</span><span>Jeanne and Charles Rider Graduate Fellowship, Penn State University<br>Smeal Research Grant, Penn State University</span></li>
+        <li><span class="year">2024-2025</span><span>J. Kenneth and Nancy N. Jones Graduate Scholarship, Penn State University<br>Smeal Research Grant, Penn State University</span></li>
+        <li><span class="year">2023-2024</span><span>Jane O. Burns Graduate Scholarship, Penn State University</span></li>
+        <li><span class="year">2022-2023</span><span>Dean's Fellowship, Penn State University</span></li>
+        <li><span class="year">2014-2018</span><span>Si Yuan Student Fellowship, Xi'an Jiaotong University</span></li>
+        <li><span class="year">2013</span><span>Bronze Medal in the 22nd China Biology Olympiad Final</span></li>
+        <li><span class="year">2013</span><span>First Prize in the National Biology Olympiad (#1 ranking in the province)</span></li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="dated-list">
+        <li><span class="year">2027 expected</span><span>Ph.D. in Business Administration (Accounting), Penn State University</span></li>
+        <li><span class="year">2020</span><span>M.Sc. in Accounting, Bentley University</span></li>
+        <li><span class="year">2018</span><span>B.S. in Nuclear Technology; with Second Major in Accounting, Xi'an Jiaotong University</span></li>
+      </ul>
+    </section>
   </main>
 
-  <footer class="footer" id="contact">
-    <p>(c) 2026 Scott Jinzhiyang Wang</p>
-    <a href="mailto:jqw6262@psu.edu">jqw6262@psu.edu</a>
+  <footer>
+    <p><a href="#top">Back to top</a></p>
   </footer>
 
-  <script src="script.js?v=2"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
